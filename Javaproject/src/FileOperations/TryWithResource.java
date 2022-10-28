@@ -9,6 +9,7 @@ public class TryWithResource {
 
 	public static void main(String[] args) {
 		String Readline;
+		//wedewd
 		try (BufferedReader br = new BufferedReader(new FileReader("D:\\Viratt.txt"))) {
 			Readline = br.readLine();
 			while (Readline != null) {
