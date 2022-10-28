@@ -1,4 +1,4 @@
-package com.stringmethods;
+ package com.stringmethods;
 
 public class ReverseAString {
 	public static String stringReverse(String name) {

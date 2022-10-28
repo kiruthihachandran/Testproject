@@ -7,12 +7,12 @@ public class Star3Methods {
 		{
 			for(int col=5;col>=row;col--)
 			{
-				System.out.print("  ");
+				System.out.print("");
 			}
 			for(int col=1;col<=row;col++)
 
 		{
-				System.out.print("* ");
+				System.out.print(" *");
 		}
 			System.out.println();
 		}

@@ -19,24 +19,30 @@ public class MethodsUsingArray {
 		return array;
 	}
 
-	public static int[] sortArray(int[] array) {
-		for (int i = 0; i < array.length; i++) {
-			for (int j = i + 1; j < array.length; j++) {
-				if (array[i] > array[j]) {
-					int temp = array[i];
-					array[i] = array[j];
-					array[j] = temp;
+	public static int[] sortArray(int[] sortarray) {
+		for (int i = 0; i < sortarray.length; i++) {
+			for (int j = i + 1; j <sortarray.length; j++) {
+				if (sortarray[i] > sortarray[j]) {
+					int temp =sortarray[i];
+					sortarray[i] = sortarray[j];
+					sortarray[j] = temp;
 				}
 			}
-	System.out.println(array[i]);
 		}
 
-		return array;
+		return sortarray;
+	}
+	public static int[] printArray(int[] sortarray) {
+		for (int i = 0; i < sortarray.length; i++) {
+			System.out.println(sortarray[i]);
+
+		}
+		return sortarray;
 	}
 
 	public static boolean findNumber(int[] array, int findNumber) {
 		for (int i = 0; i < array.length; i++) {
-			if (array[i] > findNumber) {
+			if (array[i] == findNumber) {
 				return true;
 			}
 		}
@@ -55,6 +61,7 @@ public class MethodsUsingArray {
 		int sum = 0;
 		for (int i = 0; i < array.length; i++) {
 			if (array[i] % 2 == 0) {
+				System.out.println("The even number is"+array[i]);
 			sum = sum + array[i];
 			}
 		}
@@ -65,6 +72,7 @@ public class MethodsUsingArray {
 		int sum = 0;
 		for (int i = 0; i < array.length; i++) {
 			if (array[i] % 2 != 0) {
+				System.out.println("ood number is"+array[i]);
 				sum = sum + array[i];
 
 			}
@@ -72,14 +80,7 @@ public class MethodsUsingArray {
 		return sum;
 	}
 
-	public static int[] printArray(int[] array) {
-		for (int i = 0; i < array.length; i++) {
-			System.out.println(array[i]);
-
-		}
-		return array;
-	}
-
+	
 	public static void main(String[] args) {
 		int[] inputarray = getArray();
 		int[] print=printArray(inputarray);
