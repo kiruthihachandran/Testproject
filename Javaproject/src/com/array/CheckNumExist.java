@@ -6,7 +6,7 @@ public class CheckNumExist {
 	{
 		boolean isExist = false;
 		int arr[] = { 1, 2, 3, 4, 4, 5, 6, 7 };
-		int findarr = 0;
+		int findarr = 3;
 		for (int i = 0; i < arr.length; i++) {
 			if (findarr == arr[i]) {
 				isExist = true;

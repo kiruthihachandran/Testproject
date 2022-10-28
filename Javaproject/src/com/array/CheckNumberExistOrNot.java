@@ -9,12 +9,12 @@ public class CheckNumberExistOrNot {
 		for (int i = 0; i <num.length; i++) {
 			if (findnum == num[i]) {
 				System.out.println("If number Exist =" +num[i]);
-			}
+			
 		
 		}
 			System.out.println("Number Not Found ");
 			}
-		
+	}
 
 	}
 
