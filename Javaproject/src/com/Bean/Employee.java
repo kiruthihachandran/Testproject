@@ -1,10 +1,9 @@
-package com.Bean;
+ package com.Bean;
 
 public class Employee {
 	private int empId;
 	private String name;
 	private int salary;
-	private String cabin;
 
 	public Employee(int empId, String name, int salary) {
 		super();
