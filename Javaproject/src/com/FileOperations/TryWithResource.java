@@ -12,6 +12,8 @@ public class TryWithResource {
 
 		try (BufferedReader br = new BufferedReader(new FileReader("D:\\Viratt.txt"))) {
 			Readline = br.readLine();
+
+	
 			while (Readline != null) {
 				System.out.println(Readline);
 				break;

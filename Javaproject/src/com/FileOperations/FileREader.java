@@ -1,5 +1,5 @@
 package com.FileOperations;
 
-public class Testing {
+public class FileREader {
 
 }
